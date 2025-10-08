@@ -1,0 +1,71 @@
+header{
+    text-align: center;
+    border-radius: 15px ;
+    border:solid rgb(0, 115, 255);
+    background-color: rgb(2, 176, 229);
+    padding: 40px;
+    color:white;
+    grid-area: h;
+}
+
+nav{
+    padding: 10px;
+    background-color: blue;
+    border-radius: 15px;
+    word-spacing: 22px;
+    margin: 10px;
+    grid-area: n;
+}
+
+article{
+    color: black;
+    background-color: rgb(2, 176, 229);
+    border: solid rgb(0, 115, 255);
+    border-radius:3px;
+    grid-area: a;
+    padding: 10px;
+}
+
+aside{
+    grid-area: as;
+    padding: 10px;
+}
+
+nav a{
+    color: rgb(250, 203, 114);
+    text-decoration: none;
+}
+nav a:hover{
+    padding: 5px;
+    background-color: aquamarine;
+    border-radius: 3px;
+}
+
+footer{
+    padding: 10px;
+    color: white;
+    background-color: rgb(2, 176, 229) ;
+    text-align: center;
+    border: solid rgb(0, 115, 255);
+    border-radius: 3px;
+    grid-area: f;
+}
+
+main{
+    display: grid;
+
+    grid-template-areas: 
+    "h h "
+    "n n "
+    "as a"
+    "f f"
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(2, 176, 229);
+    padding: 4px;
+    padding-bottom: 13px;
+    border-radius: 4px;
+}
