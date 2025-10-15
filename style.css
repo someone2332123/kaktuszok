@@ -1,3 +1,8 @@
+*{
+
+    box-sizing: border-box;
+}
+
 header{
     text-align: center;
     border-radius: 15px ;
@@ -10,7 +15,7 @@ header{
 
 nav{
     padding: 10px;
-    background-color: blue;
+    background-color: rgb(52, 105, 253);
     border-radius: 15px;
     word-spacing: 22px;
     margin: 10px;
@@ -22,24 +27,27 @@ article{
     background-color: rgb(2, 176, 229);
     border: solid rgb(0, 115, 255);
     border-radius:3px;
-    grid-area: a;
-    padding: 10px;
+    grid-area: a;   
+    margin: 12px;
 }
 
 aside{
     grid-area: as;
-    padding: 10px;
+    margin: 10px;
+    background-color: rgb(2, 176, 229);
+    border: solid rgb(0, 115, 255);
+    border-radius:3px;
 }
 
 nav a{
     color: rgb(250, 203, 114);
     text-decoration: none;
 }
-nav a:hover{
-    padding: 5px;
-    background-color: aquamarine;
-    border-radius: 3px;
-}
+    nav a:hover{
+        padding: 5px;
+        background-color: rgb(106, 230, 252);
+        border-radius: 3px;
+    }
 
 footer{
     padding: 10px;
@@ -64,7 +72,6 @@ main{
 img{
     height: 300px;
     width: 300px;
-    background-color: rgb(2, 176, 229);
     padding: 4px;
     padding-bottom: 13px;
     border-radius: 4px;
